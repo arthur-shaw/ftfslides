@@ -1,0 +1,36 @@
+---
+title: "Nom du module"
+output:
+  xaringan::moon_reader:
+    css: ["default", "ftf.css"]
+    lib_dirs: libs
+    nature:
+      ratio: "16:9"
+      countIncrementalSlides: false
+---
+
+```{r knitr_options, include = FALSE, echo = FALSE, warning = FALSE, message = FALSE}
+
+# knitr options
+knitr::opts_chunk$set(
+    echo = TRUE, 
+	warning = FALSE,
+	message = FALSE,
+	out.width = '100%')
+
+```
+
+```{r load_libs, eval=TRUE, echo = FALSE}
+# load necessary libraries
+library(xaringanExtra)
+library(fontawesome)
+library(emo)
+```
+
+```{r xaringan_extra, eval=TRUE, echo = FALSE}
+# 
+xaringanExtra::use_panelset()
+xaringanExtra::use_tachyons()
+
+```
+
