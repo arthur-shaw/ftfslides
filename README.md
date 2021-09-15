@@ -1,0 +1,30 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# ftfslides
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of ftfslides is to provide tools for creating training slides
+for the Feed the Future Sénégal survey. These tools consist of a
+template Rmd and standardized CSS.
+
+## Installation
+
+The package is not yet on CRAN, but can be installed via the following
+command:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("arthur-shaw/ftfslides")
+```
+
+## Usage
+
+-   Open RStudio
+-   Follow these menu: `File > New File > RMarkdown`
+-   Select the `From Template` in the left-hand pane of the dialog
+-   Select `ftfslides`
+-   Specify a name for the slides and a folder in which to save them
+-   Draft slides, adapting the template to one’s particular needs
