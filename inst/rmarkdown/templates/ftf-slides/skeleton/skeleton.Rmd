@@ -28,9 +28,9 @@ library(emo)
 ```
 
 ```{r xaringan_extra, eval=TRUE, echo = FALSE}
-# 
+# use panelset and tachyon from xaringanExtra
+# see here how to use other components: https://pkg.garrickadenbuie.com/xaringanExtra/#/
 xaringanExtra::use_panelset()
 xaringanExtra::use_tachyons()
-
 ```
 
