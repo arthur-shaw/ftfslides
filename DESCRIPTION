@@ -15,8 +15,9 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
     emo (>= 0.0.0.9000),
+    emoji,
     fontawesome,
     xaringan,
     xaringanExtra
-Remotes:  
+Remotes: 
     github::hadley/emo
