@@ -58,62 +58,78 @@ display: table;
 text-align: center;
 }
 
+/* Colors */
+
+:root {
+  --section-0: #1c51b7;
+  --section-1: #10085C;
+  --section-2: #303F8A;
+  --section-3: #5177B8;
+  --section-4: #71AEE6;
+  --section-5: #71AEE6;
+  --section-6: #71AEE6;
+}
+
 /* Common colors for boxes  */
 
 /* ... background for boxes and section title */
 
+.section-title-0 {
+  background-color: var(--section-0);
+}
+
 .box-1, .section-title-1 {
-  background-color: #1C51B7;
+  background-color: var(--section-1);
 }
 
 .box-2, .section-title-2{
-  background-color: #4C8AD0;
+  background-color: var(--section-2);
 }
 
 .box-3, .section-title-3 {
-  background-color: #7CC2E9;
+  background-color: var(--section-3);
 }
 
 .box-4, .section-title-4 {
-  background-color: #74AC69FF;
+  background-color: var(--section-4);
 }
 
 .box-5, .section-title-5 {
-  background-color: #97C38BFF;
+  background-color: var(--section-5);
 }
 
 .box-6, .section-title-6 {
-  background-color: #BBDAADFF;
+  background-color: var(--section-6);
 }
 
 /* ....border colors for titles */
 
 .title-0 {
-border-top-color: #1C51B7;
+border-top-color: var(--section-0);
 }
 
 .title-1 {
-  border-top-color: #1C51B7;
+  border-top-color: var(--section-1);
 }
 
 .title-2 {
-  border-top-color: #4C8AD0;
+  border-top-color: var(--section-2);
 }
 
 .title-3 {
-  border-top-color: #7CC2E9;
+  border-top-color: var(--section-3);
 }
 
 .title-4 {
-  border-top-color: #74AC69FF;
+  border-top-color: var(--section-4);
 }
 
 .title-5 {
-  border-top-color: #97C38BFF;
+  border-top-color: var(--section-5);
 }
 
 .title-6 {
-  border-top-color: #BBDAADFF;
+  border-top-color: var(--section-6);
 }
 
 /* Two-column layout: 75/25 */
