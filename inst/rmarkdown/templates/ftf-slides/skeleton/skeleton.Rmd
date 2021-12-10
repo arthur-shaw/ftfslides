@@ -2,7 +2,7 @@
 title: "Nom du module"
 output:
   xaringan::moon_reader:
-    css: ["default", "ftf.css"]
+    css: ["default", "assets/ftf.css"]
     lib_dirs: libs
     nature:
       ratio: "16:9"
