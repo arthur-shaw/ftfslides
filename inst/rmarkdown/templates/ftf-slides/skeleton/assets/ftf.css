@@ -40,13 +40,13 @@ color: #FFFFFF;
 
 /* Text box list */
 
-.box-txt { 
+.box-txt {
 font-size: 3rem;
 color: white;
 }
 
 .box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
-display: inline;  
+display: inline;
 }
 
 .box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
@@ -56,6 +56,61 @@ padding: 0.1em 0.4em;
 font-weight: 600;
 display: table;
 text-align: center;
+}
+
+/* Call-out box styles */
+
+.question-box, .note-box, .info-box {
+  /* tachyon: mt5 */
+  margin-top: 4rem;
+  /* tachyon: ph4 */
+  padding-left: 4rem;
+  padding-right: 2rem;
+  /* tachyon: bw2 */
+  border-width: .25rem;
+  /* tachyon: shadow-5 */
+  box-shadow: 4px 4px 8px 0px rgba(100, 70, 70, 0.2);
+  border-style: solid;
+}
+
+/* Question box */
+
+.question-box {
+  background-image: url("../assets/qnr.png");
+  background-size: 40px 40px;
+  background-position: 0.5em 1em;
+  background-repeat: no-repeat;
+  background-color: #D5E6EF;
+  color: black;
+  border-color: #569BBD;
+}
+
+/* Note box */
+
+.note-box {
+  background-image: url("../assets/important.png");
+  background-size: 40px 40px;
+  background-position: 0.5em 1em;
+  background-repeat: no-repeat;
+  background-color: #FDC8C1;
+  border-color: red;
+  color: black;
+}
+
+/* Info box */
+
+.info-box {
+  background-image: url("../assets/info.png");
+  background-size: 40px 40px;
+  background-position: 0.5em 1em;
+  background-repeat: no-repeat;
+  background-color: #E6E6E6;
+  color: black;
+  border-color: #25B7D3;
+}
+
+.i-h3 {
+  color: #25B7D3;
 }
 
 /* Colors */
@@ -200,7 +255,7 @@ padding: 0 0 0 2.5%;
 /* lower half */
 .pull-left-low {
   float: left;
-  height: 72%;  
+  height: 72%;
   width: 47%;
 }
 .pull-right-low {
@@ -213,7 +268,7 @@ padding: 0 0 0 2.5%;
 
 .pull-left-low-3 {
   float: left;
-  height: 72%;  
+  height: 72%;
   width: 30%;
   padding: 0 2.5% 0 0;
 }
@@ -241,7 +296,7 @@ padding: 0 0 0 2.5%;
 .footnote {
   position: absolute;
   bottom: 0;
-  padding-right: 8em; /* to avoid the page numbering */ 
+  padding-right: 8em; /* to avoid the page numbering */
 }
 /* footnote identifier use: .fn[1] */
 .fn {
@@ -251,9 +306,9 @@ padding: 0 0 0 2.5%;
 .footnote {
   font-size: 0.7em;
 }
-.remark-slide-content .footnote  p, 
+.remark-slide-content .footnote  p,
 .remark-slide-content .footnote li {
   font-size: 0.7em!important;
 }
-.footnote .remark-code, 
+.footnote .remark-code,
 .footnote .remark-inline-code{ font-size: 0.8em!important; }
