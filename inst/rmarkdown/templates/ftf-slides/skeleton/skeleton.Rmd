@@ -36,3 +36,8 @@ xaringanExtra::use_panelset()
 xaringanExtra::use_tachyons()
 ```
 
+class: section-title-0, center, middle, inverse
+
+# `r rmarkdown::metadata$title`
+
+---
