@@ -26,6 +26,7 @@ knitr::opts_chunk$set(
 library(xaringanExtra)
 library(fontawesome)
 library(emo)
+library(emoji)
 ```
 
 ```{r xaringan_extra, eval=TRUE, echo = FALSE}
