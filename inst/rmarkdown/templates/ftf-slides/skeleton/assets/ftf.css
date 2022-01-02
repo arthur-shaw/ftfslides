@@ -8,15 +8,6 @@
   display: none;
 }
 
-/* Font color for title slide */
-
-.green {
-  color: white;
-
-  text-shadow: 0 0 30px #16642AFF, 0 0 30px #16642AFF;
-
-}
-
 /* Title box at top of slide */
 
 .title {
