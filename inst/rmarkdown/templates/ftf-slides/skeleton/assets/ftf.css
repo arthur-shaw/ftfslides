@@ -51,7 +51,7 @@ text-align: center;
 
 /* Call-out box styles */
 
-.question-box, .note-box, .info-box {
+.question-box, .note-box, .info-box, .quiz-box {
   /* tachyon: mt5 */
   margin-top: 4rem;
   /* tachyon: ph4 */
@@ -98,6 +98,18 @@ text-align: center;
   background-color: #E6E6E6;
   color: black;
   border-color: #25B7D3;
+}
+
+/* Quiz box */
+
+.quiz-box {
+  background-image: url("../assets/question.png");
+  background-size: 40px 40px;
+  background-position: 0.5em 1em;
+  background-repeat: no-repeat;
+  background-color: #A9FFDA;
+  color: black;
+  border-color: #57BE92;
 }
 
 .i-h3 {
